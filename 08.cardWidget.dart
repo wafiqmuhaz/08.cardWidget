@@ -33,7 +33,9 @@ class allone extends StatelessWidget {
       elevation: 5,
       child: Row(
         children: <Widget>[
-          Container(margin: EdgeInsets.all(5), child: Icon(Icons.mail)),
+          Container(
+              margin: EdgeInsets.all(5),
+              child: Icon(iconData, color: Colors.green)),
           Text(text),
         ],
       ),
